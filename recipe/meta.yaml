@@ -1,4 +1,4 @@
-{% set version = "0.0.3" %}
+{% set version = "0.0.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 {% set cran_mirror = 'https://cran.r-project.org' %}
@@ -12,11 +12,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggplotify_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggplotify/ggplotify_{{ version }}.tar.gz
-  sha256: 7e7953a2933aa7127a0bac54375e3e0219a0744cfc3249c3d7b76065f7a51892
+  sha256: 8f49abd0dbda0c3fde330cdb315e2b4482712558f6d13e6ae2bc30db6be3635b
 
 build:
   noarch: generic
-  number: 1001
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
