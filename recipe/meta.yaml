@@ -16,7 +16,7 @@ source:
 
 build:
   noarch: generic
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -42,10 +42,11 @@ test:
 about:
   home: https://github.com/GuangchuangYu/ggplotify
   license: Artistic-2.0
-  summary: Convert plot function call (using expression or formula) to 'grob' or 'ggplot' object that compatible to the 'grid' and 'ggplot2' ecosystem. With this
-    package, we are able to e.g. using 'cowplot' to align plots produced by 'base' graphics, 'grid', 'lattice', 'vcd' etc. by converting them to 'ggplot' objects.
+  summary: Convert plot function call (using expression or formula) to 'grob' or 'ggplot' object that compatible to the 'grid' and 'ggplot2' ecosystem. With this package, we are able to e.g. using 'cowplot' to align plots produced by 'base' graphics, 'grid', 'lattice', 'vcd' etc. by converting them to 'ggplot' objects.
   license_family: OTHER
 
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/Artistic-2.0
 extra:
   recipe-maintainers:
     - conda-forge/r
