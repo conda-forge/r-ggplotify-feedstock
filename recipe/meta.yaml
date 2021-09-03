@@ -28,12 +28,12 @@ requirements:
     - r-base
     - r-ggplot2
     - r-gridgraphics
-    - r-rvcheck
+    - r-yulab.utils
   run:
     - r-base
     - r-ggplot2
     - r-gridgraphics
-    - r-rvcheck
+    - r-yulab.utils
 
 test:
   commands:
