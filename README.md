@@ -1,11 +1,11 @@
-About r-ggplotify
-=================
+About r-ggplotify-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggplotify-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/GuangchuangYu/ggplotify
 
 Package license: Artistic-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggplotify-feedstock/blob/main/LICENSE.txt)
 
 Summary: Convert plot function call (using expression or formula) to 'grob' or 'ggplot' object that compatible to the 'grid' and 'ggplot2' ecosystem. With this package, we are able to e.g. using 'cowplot' to align plots produced by 'base' graphics, 'grid', 'lattice', 'vcd' etc. by converting them to 'ggplot' objects.
 
