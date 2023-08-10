@@ -1,4 +1,4 @@
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggplotify_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggplotify/ggplotify_{{ version }}.tar.gz
-  sha256: 33385d1caa185ff98983a117e9a6949844e4a2d1b0067ea668ad6763a0b68ef4
+  sha256: 01bae5759e14e211bddb04413e094ba31399b513989894ea08602d202f990e87
 
 build:
   merge_build_host: true  # [win]
